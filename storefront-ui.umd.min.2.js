@@ -1,0 +1,2 @@
+(("undefined"!==typeof self?self:this)["webpackJsonpstorefront_ui"]=("undefined"!==typeof self?self:this)["webpackJsonpstorefront_ui"]||[]).push([[2],{"6cc5":function(e,f,s){}}]);
+//# sourceMappingURL=storefront-ui.umd.min.2.js.map
