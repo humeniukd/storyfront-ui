@@ -5705,9 +5705,8 @@ var LGeoJson_vue_script_ = LGeoJson_script;
 
 /* harmony default export */ var LGeoJson = (LGeoJson_vue_component_);
 
-// EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
-var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
-var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
+// EXTERNAL MODULE: ./node_modules/vue/dist/vue.runtime.esm.js
+var vue_runtime_esm = __webpack_require__("2b0e");
 
 // CONCATENATED MODULE: ./node_modules/vue2-leaflet/dist/components/LGridLayer.js
 
@@ -5986,7 +5985,7 @@ var LGridLayer_script = {
 
   computed: {
     TileConstructor: function TileConstructor() {
-      return external_commonjs_vue_commonjs2_vue_root_Vue_default.a.extend(this.tileComponent);
+      return vue_runtime_esm["a" /* default */].extend(this.tileComponent);
     },
   },
 
